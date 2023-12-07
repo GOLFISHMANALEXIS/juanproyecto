@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Documentación de mi Aplicación</title>
+  <style>
+    /* Estilos CSS */
+    /* ... (Estilos CSS proporcionados) ... */
+    /* Nuevos estilos para el botón */
+    * {
+    margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #0b0b0e;
+      overflow-x: hidden;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 1.125rem;
+    }
+    .title {
+      font-size: 3.125rem;
+      text-align: center;
+      margin: 3.125rem 0rem 0.625rem 0rem;
+      color: #00A2AF;
+      -webkit-text-stroke: 0.5px #31DDCE;
+    }
+    .subtitle {
+      font-size: 1.25rem;
+      text-align: center;
+      margin-bottom: 1.875rem;
+      color: #fff;
+    }
+    .container-img {
+      display: grid;
+      width: 100%;
+      margin: auto;
+      padding: 0.625rem 0rem;
+      border-radius: 1.125rem;
+      background: #0b0b0e;
+      box-shadow: 0.625rem 0.625rem 0.563rem #040406,
+                  -0.625rem -0.625rem 0.563rem #121216;
+    }
+    .box-img {
+      margin: 0.313rem;
+    }
+    .box-img a {
+      all: none;
+    }
+    .box-img:hover {
+      transform: scale(0.98);
+      transition: 0.5s;
+      filter: brightness(0.6);
+    }
+    @media(min-width:520px) {
+      .container-section .container-img {     
+        grid-template-columns: repeat(2, 50%);
+      }
+    }
+    @media(min-width:728px) {
+      .container-section .container-img {
+        grid-template-columns: repeat(3, 33.3%);
+      }
+    }
+    @media(min-width:1024px) {
+      .container-section .container-img {
+        grid-template-columns: repeat(4, 25%);
+      }
+      .container-img {
+        width: 1024px;
+      }
+    }
+    @media(min-width:1200px) {
+      .container-img {
+        width: 1200px;
+      }
+    }
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1.5rem;
+      background-color: #00A2AF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 0.5rem;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #00777f;
+    }
+  </style>
+</head>
+<body>
+    <h1 class="title">Documentación de mi Aplicación</h1>
+    <h2 class="subtitle">Traductor de Voz a Varios Idiomas</h2>
+    <p>Esta aplicación de traductor de voz permite a los usuarios grabar voz en un idioma específico y luego traducirlo al idioma deseado al presionar un botón correspondiente.</p>
+    
+    <h3 style="color: #fff;">Funcionalidades Principales</h3>
+    <p style="color: #fff;">La aplicación de traductor de voz ofrece las siguientes funcionalidades:</p>
+    <ul style="color: #fff;">
+      <li><strong>Grabación de Voz:</strong> Los usuarios pueden grabar su voz en el idioma original.</li>
+      <li><strong>Traducción a Varios Idiomas:</strong> Al presionar un botón específico, la aplicación traduce la voz grabada al idioma seleccionado.</li>
+      <li><strong>Reconocimiento de Voz:</strong> Utiliza tecnología avanzada para reconocer la voz y proporcionar una traducción precisa.</li>
+    </ul>
+  
+    <h3 style="color: #fff;">Código de Funcionamiento</h3>
+    <p style="color: #fff;">El funcionamiento básico del traductor de voz implica el siguiente flujo de acciones:</p>
+    <p style="color: #fff;">
+    // Iniciar grabación de voz
+    Iniciar Grabación de Voz
+    
+    // Detener grabación y reconocer el texto de voz
+    Detener Grabación y Reconocer Texto
+    
+    // Traducir texto a idioma deseado (mediante API de traducción)
+    Traducir Texto a Idioma Deseado
+</p>
+    <p style="color: #fff;">Este es un ejemplo simplificado del flujo de trabajo que sigue la aplicación para traducir la voz grabada al idioma seleccionado por el usuario.</p>
+  <center>
+      <!-- Aquí podrías incluir los botones para seleccionar los idiomas y otros elementos de la interfaz de tu aplicación -->
+     <a href="#" class="button" onclick="translateToSpanish()">Traducir a Español</a>
+     <a href="#" class="button" onclick="translateToFrench()">Traducir a Francés</a>
+     <br>
+     <br>
+     <br>
+<center>
+    <a href="https://gallery.appinventor.mit.edu/?galleryid=97ef3c7a-d27b-4e56-a0e3-ea064effec0e" class="button" target="_blank">GALERIA</a>
+   <br>
+  <!-- Botón de redireccionamiento -->
+  <a href="https://drive.google.com/file/d/1QsneaxfmrOWSo7ACW8SSekSToH6Hm7eL/view?usp=sharing" class="button" target="_blank">APK</a>
+</center>
+</body>
+</html>

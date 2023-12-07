@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Documentación de mi Aplicación</title>
+  <style>
+    /* Estilos CSS */
+    /* ... (Estilos CSS proporcionados) ... */
+    /* Nuevos estilos para el botón */
+    * {
+    margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #0b0b0e;
+      overflow-x: hidden;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 1.125rem;
+    }
+    .title {
+      font-size: 3.125rem;
+      text-align: center;
+      margin: 3.125rem 0rem 0.625rem 0rem;
+      color: #00A2AF;
+      -webkit-text-stroke: 0.5px #31DDCE;
+    }
+    .subtitle {
+      font-size: 1.25rem;
+      text-align: center;
+      margin-bottom: 1.875rem;
+      color: #fff;
+    }
+    .container-img {
+      display: grid;
+      width: 100%;
+      margin: auto;
+      padding: 0.625rem 0rem;
+      border-radius: 1.125rem;
+      background: #0b0b0e;
+      box-shadow: 0.625rem 0.625rem 0.563rem #040406,
+                  -0.625rem -0.625rem 0.563rem #121216;
+    }
+    .box-img {
+      margin: 0.313rem;
+    }
+    .box-img a {
+      all: none;
+    }
+    .box-img:hover {
+      transform: scale(0.98);
+      transition: 0.5s;
+      filter: brightness(0.6);
+    }
+    @media(min-width:520px) {
+      .container-section .container-img {     
+        grid-template-columns: repeat(2, 50%);
+      }
+    }
+    @media(min-width:728px) {
+      .container-section .container-img {
+        grid-template-columns: repeat(3, 33.3%);
+      }
+    }
+    @media(min-width:1024px) {
+      .container-section .container-img {
+        grid-template-columns: repeat(4, 25%);
+      }
+      .container-img {
+        width: 1024px;
+      }
+    }
+    @media(min-width:1200px) {
+      .container-img {
+        width: 1200px;
+      }
+    }
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1.5rem;
+      background-color: #00A2AF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 0.5rem;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #00777f;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="title">Documentación de mi Aplicación</h1>
+  <h2 class="subtitle">Disposiciones Horizontales y Botones</h2>
+  <p>Esta aplicación fue desarrollada en App Inventor, utilizando disposiciones horizontales y tres botones en la interfaz principal para ofrecer una experiencia de usuario intuitiva y funcional.</p>
+  
+  <h3 style="color: #fff;">Disposición Horizontal y Botones</h3>
+  <p style="color: #fff;">La aplicación consta de disposiciones horizontales y tres botones:</p>
+  <ul style="color: #fff;">
+    <li><strong>Botón 1 - Gruñir:</strong> Al presionar este botón, la aplicación reproduce un sonido de gruñido.</li>
+    <li><strong>Botón 2 - Aullido:</strong> Al presionar este botón, la aplicación reproduce un sonido de aullido.</li>
+    <li><strong>Botón 3 - Salir:</strong> Este botón permite al usuario salir de la aplicación o cerrar la pantalla actual.</li>
+  </ul>
+
+  <h3 style="color: #fff;">Código en App Inventor</h3>
+  <p style="color: #fff;">El código en App Inventor utiliza componentes de disposición horizontal y botones. A continuación, se muestra un ejemplo básico del código de bloques:</p>
+  
+  // Creación de la disposición horizontal
+  Crear Disposición Horizontal
+  
+  // Añadir botón 1 a la disposición horizontal (Gruñir)
+  Añadir Botón 1 a la Disposición Horizontal
+  Configurar Propiedades del Botón 1 (Asociar sonido de gruñido)
+  
+  // Añadir botón 2 a la disposición horizontal (Aullido)
+  Añadir Botón 2 a la Disposición Horizontal
+  Configurar Propiedades del Botón 2 (Asociar sonido de aullido)
+  
+  // Añadir botón 3 a la disposición horizontal (Salir)
+  Añadir Botón 3 a la Disposición Horizontal
+  Configurar Propiedades del Botón 3 (Función de salir de la aplicación)
+
+  <p style="color: #fff;">Este es un ejemplo simplificado del código utilizado en App Inventor para crear la disposición horizontal y los botones con sus funciones específicas. Puedes personalizar las propiedades de los botones, como el sonido asociado o la acción de salida de la aplicación, según las necesidades de tu aplicación.</p>
+<center>
+    <a href="https://gallery.appinventor.mit.edu/?galleryid=b79770e5-3099-471a-a050-d89aa332877d" class="button" target="_blank">GALERIA</a>
+   <br>
+  <!-- Botón de redireccionamiento -->
+  <a href="https://drive.google.com/file/d/1QsneaxfmrOWSo7ACW8SSekSToH6Hm7eL/view?usp=sharing" class="button" target="_blank">APK</a>
+</center>
+</body>
+</html>
